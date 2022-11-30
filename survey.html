@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	 <meta name="description" content="" > 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0” >
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="survey.css" />
+	<title>
+	 Survey Form
+	</title>
+    <script src="https://kit.fontawesome.com/9f56eafcd5.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+        <div>
+            <h1 class="logo"><a href="portfolio.html">AES</a></h1>
+            </div>
+        <h1>Holland Park Villas</h1>
+        <p>Security Shift Report</p>
+    </header>
+    <main>
+        <div class="container">
+            <form>
+                <label class="label">
+                    Name
+                    <input class="input" type="text" placeholder="Enter your full name">
+                </label>
+                <label class="label">
+                    Email
+                    <input class="input" type="email" placeholder="Enter your email address">
+                </label>
+                <label class="label">
+                    Date
+                    <input class="input" type="date">
+                </label>
+                <label class="label">
+                    Which kind of shift have you done today?
+                    <select>
+                        <option value="">(Select One)</option>
+                        <option value="1">Day Shift</option>
+                        <option value="2">Night Shift</option>
+                    </select>
+                </label>
+                <label name="handover" class="label">
+                    Was The Handover Done?
+                    <ul class="li1">
+                    <li><input name="handover" type="radio">Yes</li>
+                    <li><input name="handover" type="radio">No</li>
+                    <li><input name="handover" type="radio">N/A</li>
+                    </ul>
+                </label>
+                <label class="label1">
+                    Select Security Officer?
+                    <select>
+                        <option value="">(Select One)</option>
+                        <option value="1">David Nicholls</option>
+                        <option value="2">Eran Murad</option>
+                        <option value="3">Peter Myler</option>
+                        <option value="2">Other</option>
+                    </select>
+                </label>
+                <label class="label">
+                    Any comments or suggestions?
+                    <textarea placeholder="Enter your comment here...">
+                    </textarea>
+                </label>
+                <label class="label">
+                    What areas did you patrol? <span class="small-font"><em>(Check all that apply)</em></span>
+                    <ul class="li1">
+                    <li><input type="checkbox">Block A</li>
+                    <li><input type="checkbox">Block B</li>
+                    <li><input type="checkbox">Block C</li>
+                    <li><input type="checkbox">Block D</li>
+                    <li><input type="checkbox">Energy Center</li>
+                    <li><input type="checkbox">Chiller Plant Room</li>
+                    <li><input type="checkbox">Pool Plant Room</li>
+                    <li><input type="checkbox">Fountains & Features</li>
+                    </ul>
+                </label>
+                <label class="label">
+                    Any comments?
+                    <textarea placeholder="Enter your comment here...">
+                    </textarea>
+                </label>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+  </body>
+</html>

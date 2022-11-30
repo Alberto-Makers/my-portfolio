@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F3%2F9%2Fe%2F490037.jpg&f=1&nofb=1&ipt=c86044186c174449f0fe25c51b7a3a2d5a25d875601281d60419c0c9a60468aa&ipo=images");
+    background-position: fixed;
+}
+
+header {
+    position: fixed;
+}
+
+.logo {
+    color: #f5f6f7;
+    border: 1.5px solid #f5f6f7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 25px;
+    left: 7%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: calc(18px + 0.36vw);
+    width: calc(50px + 0.36vw);
+    height: calc(50px + 0.36vw);
+}
+
+.nav {
+    color: aliceblue;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 25%;
+    top: 0.75cm;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0 0 2px black;
+    margin: 1vw 2vw;
+    font-size: calc(14px + 0.36vw);
+}
+
+
+a:hover {
+    color: rgb(228, 204, 172);
+}
+
+h1 {
+    color: aliceblue;
+    font-family: monaco;
+    font-size: calc(35px + 0.36vw);
+    position: relative;
+    top: 20rem;
+    text-align: center;
+}
+
+.dot {
+    animation: live infinite;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes live{
+    from{color: transparent}
+    to{color: #f5f6f7}
+  }
+  
+
