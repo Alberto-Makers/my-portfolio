@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("http://wallpapercave.com/wp/aJ5IFty.jpg");
+    background-position: fixed;
+    background-color: rgb(211, 211, 211);
+}
+
+header {
+    position: fixed;
+}
+
+.logo {
+    color: #f5f6f7;
+    border: 1.5px solid #f5f6f7;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 25px;
+    left: 7%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: calc(18px + 0.36vw);
+    width: calc(50px + 0.36vw);
+    height: calc(50px + 0.36vw);
+}
+
+.nav {
+    color: aliceblue;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 25%;
+    top: 0.75cm;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0 0 2px black;
+    margin: 1vw 2vw;
+    font-size: calc(14px + 0.36vw);
+}
+
+
+a:hover {
+    color: rgb(228, 204, 172);
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    top: 20vw;
+    padding: 0.5vw;
+}
+
+.survey, .tribute, .document, .product, .ppw {
+    background-color: red;
+    width: 20vw;
+    height: 20vw;
+    margin: 1vw;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    .survey, .tribute, .document, .product, .ppw {
+        width: calc(25% - 10px);
+    }
+}
+
+@media (min-width: 940px) {
+    .survey, .tribute, .document, .product, .ppw {
+        width: calc(20% - 10px);
+    }
+}
